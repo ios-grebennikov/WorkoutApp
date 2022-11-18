@@ -24,6 +24,9 @@
 		84A0976E29236B380034775D /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0976D29236B380034775D /* SecondaryButton.swift */; };
 		84A0977B2924078F0034775D /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0977A2924078F0034775D /* OverviewNavBar.swift */; };
 		84A0977D292407DF0034775D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0977C292407DF0034775D /* BaseView.swift */; };
+		84AE9F502927F3DA00159F6A /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE9F4F2927F3DA00159F6A /* WeekView.swift */; };
+		84AE9F522927F89200159F6A /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE9F512927F89200159F6A /* WeekdayView.swift */; };
+		84AE9F542928000F00159F6A /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE9F532928000F00159F6A /* Date + Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		84A0976D29236B380034775D /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		84A0977A2924078F0034775D /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		84A0977C292407DF0034775D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		84AE9F4F2927F3DA00159F6A /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		84AE9F512927F89200159F6A /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		84AE9F532928000F00159F6A /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 			children = (
 				847F48FE29215A4A00F1534E /* UIColor + ext.swift */,
 				849629CB2922BAD300F03153 /* UIView + ext.swift */,
+				84AE9F532928000F00159F6A /* Date + Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -182,10 +189,20 @@
 		84A0976C29236AD60034775D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84AE9F4E2927F3B700159F6A /* WeekView */,
 				84A0976D29236B380034775D /* SecondaryButton.swift */,
 				84A0977A2924078F0034775D /* OverviewNavBar.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		84AE9F4E2927F3B700159F6A /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				84AE9F4F2927F3DA00159F6A /* WeekView.swift */,
+				84AE9F512927F89200159F6A /* WeekdayView.swift */,
+			);
+			path = WeekView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,12 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AE9F502927F3DA00159F6A /* WeekView.swift in Sources */,
 				849629D72922BDE700F03153 /* SettingsController.swift in Sources */,
 				847F48EA2921546200F1534E /* OverviewController.swift in Sources */,
 				84A0977B2924078F0034775D /* OverviewNavBar.swift in Sources */,
 				849629CC2922BAD300F03153 /* UIView + ext.swift in Sources */,
 				847F48FC2921583A00F1534E /* TabBarController.swift in Sources */,
 				847F48E62921546200F1534E /* AppDelegate.swift in Sources */,
+				84AE9F542928000F00159F6A /* Date + Ext.swift in Sources */,
 				849629D32922BDAF00F03153 /* SessionController.swift in Sources */,
 				84A0976E29236B380034775D /* SecondaryButton.swift in Sources */,
 				849629D52922BDC800F03153 /* ProgressController.swift in Sources */,
@@ -271,6 +290,7 @@
 				847F490229215B2100F1534E /* Resources.swift in Sources */,
 				847F48FF29215A4A00F1534E /* UIColor + ext.swift in Sources */,
 				84A0977D292407DF0034775D /* BaseView.swift in Sources */,
+				84AE9F522927F89200159F6A /* WeekdayView.swift in Sources */,
 				849629CA2922B8AC00F03153 /* BaseController.swift in Sources */,
 				847F48E82921546200F1534E /* SceneDelegate.swift in Sources */,
 			);
