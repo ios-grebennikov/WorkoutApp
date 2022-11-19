@@ -135,6 +135,7 @@
 		848B04B62928DA8900AD1CFD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84A0977C292407DF0034775D /* BaseView.swift */,
 				848B04B72928DAA300AD1CFD /* BaseInfoView.swift */,
 			);
 			path = Views;
@@ -159,7 +160,6 @@
 				847F48FB2921583A00F1534E /* TabBarController.swift */,
 				849629C62922B56D00F03153 /* NavBarController.swift */,
 				849629C92922B8AC00F03153 /* BaseController.swift */,
-				84A0977C292407DF0034775D /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
