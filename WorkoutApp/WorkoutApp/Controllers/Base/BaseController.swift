@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum NavBarPosition {
+enum NavBarButtonPosition {
     case left
     case right
 }
@@ -45,7 +45,7 @@ class BaseController: UIViewController {
 }
 
 extension BaseController {
-    func addNavBarButton(at position: NavBarPosition, with title: String) {
+    func addNavBarButton(at position: NavBarButtonPosition, with title: String) {
         let button = UIButton(type: .system)
         button.setTitle(title, for: .normal)
         button.setTitleColor(R.Colors.active, for: .normal)
