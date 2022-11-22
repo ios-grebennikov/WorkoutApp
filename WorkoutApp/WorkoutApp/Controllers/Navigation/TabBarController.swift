@@ -20,6 +20,8 @@ final class TabBarController: UITabBarController {
         super.viewDidLoad()
 
         configureAppearance()
+        
+        
         switchTo(tab: .session)
     }
     
