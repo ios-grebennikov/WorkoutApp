@@ -19,7 +19,7 @@
 		848EE897292BE99F0010E5FE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EE896292BE99F0010E5FE /* TimerView.swift */; };
 		848EE89A292BEAB10010E5FE /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EE899292BEAB10010E5FE /* ProgressView.swift */; };
 		849629C72922B56D00F03153 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849629C62922B56D00F03153 /* NavBarController.swift */; };
-		849629CA2922B8AC00F03153 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849629C92922B8AC00F03153 /* BaseController.swift */; };
+		849629CA2922B8AC00F03153 /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849629C92922B8AC00F03153 /* WABaseController.swift */; };
 		849629CC2922BAD300F03153 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849629CB2922BAD300F03153 /* UIView + ext.swift */; };
 		849629D32922BDAF00F03153 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849629D22922BDAF00F03153 /* SessionController.swift */; };
 		849629D52922BDC800F03153 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849629D42922BDC800F03153 /* ProgressController.swift */; };
@@ -47,7 +47,7 @@
 		848EE896292BE99F0010E5FE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		848EE899292BEAB10010E5FE /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		849629C62922B56D00F03153 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
-		849629C92922B8AC00F03153 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		849629C92922B8AC00F03153 /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
 		849629CB2922BAD300F03153 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
 		849629D22922BDAF00F03153 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		849629D42922BDC800F03153 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				848B04B62928DA8900AD1CFD /* Views */,
-				849629C92922B8AC00F03153 /* BaseController.swift */,
+				849629C92922B8AC00F03153 /* WABaseController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 				847F48FF29215A4A00F1534E /* UIColor + ext.swift in Sources */,
 				84A0977D292407DF0034775D /* BaseView.swift in Sources */,
 				84AE9F522927F89200159F6A /* WeekdayView.swift in Sources */,
-				849629CA2922B8AC00F03153 /* BaseController.swift in Sources */,
+				849629CA2922B8AC00F03153 /* WABaseController.swift in Sources */,
 				847F48E82921546200F1534E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
