@@ -11,7 +11,7 @@ class SessionController: WABaseController {
     
     private let timerView = TimerView()
     
-    private let timerDuration = 3.0
+    private let timerDuration = 13.0
     
     override func navBarLeftButtonHandler() {
         if timerView.state == .isStopped {
