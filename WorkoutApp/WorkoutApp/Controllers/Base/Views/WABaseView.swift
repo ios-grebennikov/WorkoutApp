@@ -7,13 +7,13 @@
 
 import UIKit
 
-class BaseView: UIView {
+class WABaseView: UIView {
      
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         setupViews()
-        constaintViews()
+        constraintViews()
         configureAppearance() 
     }
     
@@ -22,9 +22,9 @@ class BaseView: UIView {
     }
 }
 
-@objc extension BaseView {
+@objc extension WABaseView {
     func setupViews() {}
-    func constaintViews() {}
+    func constraintViews() {}
     func configureAppearance() {
         backgroundColor = .white
     }

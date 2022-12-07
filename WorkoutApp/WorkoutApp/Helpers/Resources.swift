@@ -33,10 +33,6 @@ enum R {
                     return "Settings"
                 }
             }
-//            static var overview = "Overview"
-//            static var session = "Session"
-//            static var progress = "Progress"
-//            static var settings = "Settings"
         }
         
         enum NavBar {
@@ -74,10 +70,6 @@ enum R {
                     return UIImage(named: "settings_tab")
                 }
             }
-//            static var overview = UIImage(named: "overview_tab")
-//            static var session = UIImage(named: "session_tab")
-//            static var progress = UIImage(named: "progress_tab")
-//            static var settings = UIImage(named: "settings_tab")
         }
         
         enum Common {

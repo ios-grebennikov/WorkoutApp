@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class WeekView: BaseView {
+final class WeekView: WABaseView {
          
     private let stackView = UIStackView()
 }
@@ -19,8 +19,8 @@ extension WeekView {
         setupView(stackView)
     }
     
-    override func constaintViews() {
-        super.constaintViews()
+    override func constraintViews() {
+        super.constraintViews()
         
         NSLayoutConstraint.activate([
             stackView.topAnchor.constraint(equalTo: topAnchor),

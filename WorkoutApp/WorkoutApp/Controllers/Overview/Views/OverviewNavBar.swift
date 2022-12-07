@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class OverviewNavBar: BaseView {
+final class OverviewNavBar: WABaseView {
     
     private let titleLabel: UILabel = {
         let label = UILabel()
@@ -51,8 +51,8 @@ final class OverviewNavBar: BaseView {
         setupView(weekView)
     }
     
-    override func constaintViews() {
-        super.constaintViews()
+    override func constraintViews() {
+        super.constraintViews()
         
         NSLayoutConstraint.activate([
             addButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 8),
