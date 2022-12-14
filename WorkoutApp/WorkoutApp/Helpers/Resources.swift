@@ -53,6 +53,16 @@ enum R {
             
             static let elapsedTime = "Elapsed Time"
             static let remaningTime = "Remaining Time"
+            static let completed = "Completed"
+            static let remaining = "Remaining"
+            
+            static let workoutStats = "Workout stats"
+            static let averagePace = "Average pace"
+            static let heartRate = "Heart rate"
+            static let totalDistance = "Total distance"
+            static let totalSteps = "Total Steps"
+            
+            static let stepsCounter = "Steps Counter"
         }
     }
     
@@ -75,6 +85,13 @@ enum R {
         enum Common {
             static let downArrow = UIImage(named: "down_arrow")
             static let add = UIImage(named: "add_button")
+        }
+        
+        enum Session {
+            static let heartRate = UIImage(named: "stats_heartRate")
+            static let averagePace = UIImage(named: "stats_averagePace")
+            static let totalDistance = UIImage(named: "stats_totalDistance")
+            static let totalSteps = UIImage(named: "stats_totalSteps")
         }
 
     }
