@@ -33,6 +33,9 @@
 		84AE9F542928000F00159F6A /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE9F532928000F00159F6A /* Date + Ext.swift */; };
 		84C64E532949EF3E002AB76B /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C64E522949EF3E002AB76B /* StatsView.swift */; };
 		84C64E562949EFC6002AB76B /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C64E552949EFC6002AB76B /* StatsItemView.swift */; };
+		84C64E58294A3EC3002AB76B /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C64E57294A3EC3002AB76B /* StepsView.swift */; };
+		84C64E5B294A47A1002AB76B /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C64E5A294A47A1002AB76B /* WABarsView.swift */; };
+		84C64E5E294A47C9002AB76B /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C64E5D294A47C9002AB76B /* WABarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		84AE9F532928000F00159F6A /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
 		84C64E522949EF3E002AB76B /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		84C64E552949EFC6002AB76B /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
+		84C64E57294A3EC3002AB76B /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		84C64E5A294A47A1002AB76B /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
+		84C64E5D294A47C9002AB76B /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,7 @@
 		848B04B62928DA8900AD1CFD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84C64E59294A477A002AB76B /* WABarsView */,
 				84A0977C292407DF0034775D /* WABaseView.swift */,
 				848B04B72928DAA300AD1CFD /* WABaseInfoView.swift */,
 				84A0976D29236B380034775D /* WAButton.swift */,
@@ -258,6 +265,7 @@
 		84A8CC362948766400C4EEE5 /* Steps */ = {
 			isa = PBXGroup;
 			children = (
+				84C64E57294A3EC3002AB76B /* StepsView.swift */,
 			);
 			path = Steps;
 			sourceTree = "<group>";
@@ -275,6 +283,23 @@
 			isa = PBXGroup;
 			children = (
 				84C64E552949EFC6002AB76B /* StatsItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84C64E59294A477A002AB76B /* WABarsView */ = {
+			isa = PBXGroup;
+			children = (
+				84C64E5C294A47B1002AB76B /* Views */,
+			);
+			path = WABarsView;
+			sourceTree = "<group>";
+		};
+		84C64E5C294A47B1002AB76B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84C64E5A294A47A1002AB76B /* WABarsView.swift */,
+				84C64E5D294A47C9002AB76B /* WABarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -356,12 +381,14 @@
 				849629CC2922BAD300F03153 /* UIView + ext.swift in Sources */,
 				847F48FC2921583A00F1534E /* TabBarController.swift in Sources */,
 				847F48E62921546200F1534E /* AppDelegate.swift in Sources */,
+				84C64E5E294A47C9002AB76B /* WABarView.swift in Sources */,
 				84AE9F542928000F00159F6A /* Date + Ext.swift in Sources */,
 				849629D32922BDAF00F03153 /* SessionController.swift in Sources */,
 				848B04B82928DAA300AD1CFD /* WABaseInfoView.swift in Sources */,
 				848EE897292BE99F0010E5FE /* TimerView.swift in Sources */,
 				848EE89A292BEAB10010E5FE /* ProgressView.swift in Sources */,
 				84A0976E29236B380034775D /* WAButton.swift in Sources */,
+				84C64E58294A3EC3002AB76B /* StepsView.swift in Sources */,
 				849629D52922BDC800F03153 /* ProgressController.swift in Sources */,
 				849629C72922B56D00F03153 /* NavBarController.swift in Sources */,
 				84C64E562949EFC6002AB76B /* StatsItemView.swift in Sources */,
@@ -370,6 +397,7 @@
 				847F48FF29215A4A00F1534E /* UIColor + ext.swift in Sources */,
 				84A0977D292407DF0034775D /* WABaseView.swift in Sources */,
 				84AE9F522927F89200159F6A /* WeekdayView.swift in Sources */,
+				84C64E5B294A47A1002AB76B /* WABarsView.swift in Sources */,
 				84C64E532949EF3E002AB76B /* StatsView.swift in Sources */,
 				849629CA2922B8AC00F03153 /* WABaseController.swift in Sources */,
 				847F48E82921546200F1534E /* SceneDelegate.swift in Sources */,
