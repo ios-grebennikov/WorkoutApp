@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841CC0C5294B468900DC4ACD /* DailyPerfomanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CC0C4294B468900DC4ACD /* DailyPerfomanceView.swift */; };
+		841CC0C7294B46CD00DC4ACD /* MonthlyPerfomanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CC0C6294B46CD00DC4ACD /* MonthlyPerfomanceView.swift */; };
 		847F48E62921546200F1534E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F48E52921546200F1534E /* AppDelegate.swift */; };
 		847F48E82921546200F1534E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F48E72921546200F1534E /* SceneDelegate.swift */; };
 		847F48EA2921546200F1534E /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F48E92921546200F1534E /* OverviewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841CC0C4294B468900DC4ACD /* DailyPerfomanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerfomanceView.swift; sourceTree = "<group>"; };
+		841CC0C6294B46CD00DC4ACD /* MonthlyPerfomanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerfomanceView.swift; sourceTree = "<group>"; };
 		847F48E22921546200F1534E /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847F48E52921546200F1534E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847F48E72921546200F1534E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841CC0C2294B463A00DC4ACD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				841CC0C3294B466200DC4ACD /* Perfomance */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		841CC0C3294B466200DC4ACD /* Perfomance */ = {
+			isa = PBXGroup;
+			children = (
+				841CC0C4294B468900DC4ACD /* DailyPerfomanceView.swift */,
+				841CC0C6294B46CD00DC4ACD /* MonthlyPerfomanceView.swift */,
+			);
+			path = Perfomance;
+			sourceTree = "<group>";
+		};
 		847F48D92921546200F1534E = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +243,7 @@
 		849629D02922BD3800F03153 /* Progress */ = {
 			isa = PBXGroup;
 			children = (
+				841CC0C2294B463A00DC4ACD /* Views */,
 				849629D42922BDC800F03153 /* ProgressController.swift */,
 			);
 			path = Progress;
@@ -375,11 +397,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AE9F502927F3DA00159F6A /* WeekView.swift in Sources */,
+				841CC0C7294B46CD00DC4ACD /* MonthlyPerfomanceView.swift in Sources */,
 				849629D72922BDE700F03153 /* SettingsController.swift in Sources */,
 				847F48EA2921546200F1534E /* OverviewController.swift in Sources */,
 				84A0977B2924078F0034775D /* OverviewNavBar.swift in Sources */,
 				849629CC2922BAD300F03153 /* UIView + ext.swift in Sources */,
 				847F48FC2921583A00F1534E /* TabBarController.swift in Sources */,
+				841CC0C5294B468900DC4ACD /* DailyPerfomanceView.swift in Sources */,
 				847F48E62921546200F1534E /* AppDelegate.swift in Sources */,
 				84C64E5E294A47C9002AB76B /* WABarView.swift in Sources */,
 				84AE9F542928000F00159F6A /* Date + Ext.swift in Sources */,

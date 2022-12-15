@@ -22,7 +22,7 @@ final class TabBarController: UITabBarController {
         configureAppearance()
         
         
-        switchTo(tab: .session)
+        switchTo(tab: .progress)
     }
     
     func switchTo(tab: Tabs) {
