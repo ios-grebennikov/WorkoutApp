@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840D61312973F5C100D5A634 /* WAChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D61302973F5C100D5A634 /* WAChartView.swift */; };
 		841CC0C5294B468900DC4ACD /* DailyPerfomanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CC0C4294B468900DC4ACD /* DailyPerfomanceView.swift */; };
 		841CC0C7294B46CD00DC4ACD /* MonthlyPerfomanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CC0C6294B46CD00DC4ACD /* MonthlyPerfomanceView.swift */; };
 		847F48E62921546200F1534E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F48E52921546200F1534E /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840D61302973F5C100D5A634 /* WAChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartView.swift; sourceTree = "<group>"; };
 		841CC0C4294B468900DC4ACD /* DailyPerfomanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerfomanceView.swift; sourceTree = "<group>"; };
 		841CC0C6294B46CD00DC4ACD /* MonthlyPerfomanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerfomanceView.swift; sourceTree = "<group>"; };
 		847F48E22921546200F1534E /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -286,6 +288,7 @@
 			children = (
 				849EEB4D2971D6260040F464 /* YAxisView.swift */,
 				849EEB4F2971DA920040F464 /* XAxisView.swift */,
+				840D61302973F5C100D5A634 /* WAChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				84A0977D292407DF0034775D /* WABaseView.swift in Sources */,
 				84AE9F522927F89200159F6A /* WeekdayView.swift in Sources */,
 				84C64E5B294A47A1002AB76B /* WABarsView.swift in Sources */,
+				840D61312973F5C100D5A634 /* WAChartView.swift in Sources */,
 				84C64E532949EF3E002AB76B /* StatsView.swift in Sources */,
 				849629CA2922B8AC00F03153 /* WABaseController.swift in Sources */,
 				847F48E82921546200F1534E /* SceneDelegate.swift in Sources */,
