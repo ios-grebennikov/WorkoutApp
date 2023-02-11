@@ -26,7 +26,7 @@ final class YAxisView: WABaseView {
             lable.font = R.Fonts.helveticaRegular(with: 9)
             lable.textColor = R.Colors.inActive
             lable.textAlignment = .right
-            lable.text = "\($0 * 10)" // TODO: - Remake to colculated interval
+            lable.text = "\($0 * 10)" // TODO: - Remake to calculated interval
             stackView.addArrangedSubview(lable)
         }
     }
