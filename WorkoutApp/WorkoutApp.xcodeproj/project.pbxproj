@@ -10,6 +10,7 @@
 		840D61312973F5C100D5A634 /* WAChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D61302973F5C100D5A634 /* WAChartView.swift */; };
 		841CC0C5294B468900DC4ACD /* DailyPerfomanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CC0C4294B468900DC4ACD /* DailyPerfomanceView.swift */; };
 		841CC0C7294B46CD00DC4ACD /* MonthlyPerfomanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CC0C6294B46CD00DC4ACD /* MonthlyPerfomanceView.swift */; };
+		8469031229B4B26800594174 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469031129B4B26800594174 /* SectionHeaderView.swift */; };
 		847F48E62921546200F1534E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F48E52921546200F1534E /* AppDelegate.swift */; };
 		847F48E82921546200F1534E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F48E72921546200F1534E /* SceneDelegate.swift */; };
 		847F48EA2921546200F1534E /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F48E92921546200F1534E /* OverviewController.swift */; };
@@ -34,6 +35,7 @@
 		84A0976E29236B380034775D /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0976D29236B380034775D /* WAButton.swift */; };
 		84A0977B2924078F0034775D /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0977A2924078F0034775D /* OverviewNavBar.swift */; };
 		84A0977D292407DF0034775D /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0977C292407DF0034775D /* WABaseView.swift */; };
+		84A18CEF29B4E6A500C35BB9 /* TrainingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A18CEE29B4E6A500C35BB9 /* TrainingCellView.swift */; };
 		84AE9F502927F3DA00159F6A /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE9F4F2927F3DA00159F6A /* WeekView.swift */; };
 		84AE9F522927F89200159F6A /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE9F512927F89200159F6A /* WeekdayView.swift */; };
 		84AE9F542928000F00159F6A /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE9F532928000F00159F6A /* Date + Ext.swift */; };
@@ -48,6 +50,7 @@
 		840D61302973F5C100D5A634 /* WAChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartView.swift; sourceTree = "<group>"; };
 		841CC0C4294B468900DC4ACD /* DailyPerfomanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerfomanceView.swift; sourceTree = "<group>"; };
 		841CC0C6294B46CD00DC4ACD /* MonthlyPerfomanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerfomanceView.swift; sourceTree = "<group>"; };
+		8469031129B4B26800594174 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		847F48E22921546200F1534E /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847F48E52921546200F1534E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847F48E72921546200F1534E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +77,7 @@
 		84A0976D29236B380034775D /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		84A0977A2924078F0034775D /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		84A0977C292407DF0034775D /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
+		84A18CEE29B4E6A500C35BB9 /* TrainingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCellView.swift; sourceTree = "<group>"; };
 		84AE9F4F2927F3DA00159F6A /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		84AE9F512927F89200159F6A /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		84AE9F532928000F00159F6A /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
@@ -110,6 +114,32 @@
 				841CC0C6294B46CD00DC4ACD /* MonthlyPerfomanceView.swift */,
 			);
 			path = MonthlyPerfomanceView;
+			sourceTree = "<group>";
+		};
+		8469030E29B4B1AE00594174 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				84AE9F4E2927F3B700159F6A /* WeekView */,
+				84A0977A2924078F0034775D /* OverviewNavBar.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		8469030F29B4B1D700594174 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				8469031029B4B23B00594174 /* Views */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		8469031029B4B23B00594174 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8469031129B4B26800594174 /* SectionHeaderView.swift */,
+				84A18CEE29B4E6A500C35BB9 /* TrainingCellView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		847F48D92921546200F1534E = {
@@ -296,8 +326,8 @@
 		84A0976C29236AD60034775D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84AE9F4E2927F3B700159F6A /* WeekView */,
-				84A0977A2924078F0034775D /* OverviewNavBar.swift */,
+				8469030F29B4B1D700594174 /* CollectionView */,
+				8469030E29B4B1AE00594174 /* NavBar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -438,6 +468,7 @@
 				847F48EA2921546200F1534E /* OverviewController.swift in Sources */,
 				84A0977B2924078F0034775D /* OverviewNavBar.swift in Sources */,
 				849629CC2922BAD300F03153 /* UIView + ext.swift in Sources */,
+				84A18CEF29B4E6A500C35BB9 /* TrainingCellView.swift in Sources */,
 				847F48FC2921583A00F1534E /* TabBarController.swift in Sources */,
 				841CC0C5294B468900DC4ACD /* DailyPerfomanceView.swift in Sources */,
 				847F48E62921546200F1534E /* AppDelegate.swift in Sources */,
@@ -459,6 +490,7 @@
 				848F7390294082AA00BC4379 /* PercentView.swift in Sources */,
 				847F48FF29215A4A00F1534E /* UIColor + ext.swift in Sources */,
 				84A0977D292407DF0034775D /* WABaseView.swift in Sources */,
+				8469031229B4B26800594174 /* SectionHeaderView.swift in Sources */,
 				84AE9F522927F89200159F6A /* WeekdayView.swift in Sources */,
 				84C64E5B294A47A1002AB76B /* WABarsView.swift in Sources */,
 				840D61312973F5C100D5A634 /* WAChartView.swift in Sources */,
