@@ -16,15 +16,18 @@ enum Tabs: Int, CaseIterable {
 
 final class TabBarController: UITabBarController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
 
         configureAppearance()
-        
-        
-//        switchTo(tab: .progress)
     }
-    
+
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        configureAppearance()
+    }
+
     func switchTo(tab: Tabs) {
         selectedIndex = tab.rawValue
     }
@@ -33,11 +36,10 @@ final class TabBarController: UITabBarController {
         tabBar.tintColor = R.Colors.active
         tabBar.barTintColor = R.Colors.inActive
         tabBar.backgroundColor = .white
-        
         tabBar.layer.borderColor = R.Colors.separator.cgColor
         tabBar.layer.borderWidth = 1
         tabBar.layer.masksToBounds = true
-        
+
         let controllers: [NavBarController] = Tabs.allCases.map { tab in
             let controller = NavBarController(rootViewController: getController(for: tab))
             controller.tabBarItem = UITabBarItem(title: R.Strings.TabBar.title(for: tab),
@@ -45,23 +47,16 @@ final class TabBarController: UITabBarController {
                                                  tag: tab.rawValue)
             return controller
         }
-        
+
         setViewControllers(controllers, animated: false)
-            
     }
 
     private func getController(for tab: Tabs) -> WABaseController {
         switch tab {
-        case .overview:
-            return OverviewController()
-        case .session:
-            return SessionController()
-        case .progress:
-            return ProgressController()
-        case .settings:
-            return SettingsController()
+        case .overview: return OverviewController()
+        case .session: return SessionController()
+        case .progress: return ProgressController()
+        case .settings: return SettingsController()
         }
     }
-
-        
 }

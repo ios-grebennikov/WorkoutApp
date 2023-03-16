@@ -1,5 +1,5 @@
 //
-//  BaseController.swift
+//  WABaseController.swift
 //  WorkoutApp
 //
 //  Created by Alexey Grebennikov on 14.11.22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum NavBarButtonPosition {
+enum NavBarPosition {
     case left
     case right
 }
@@ -21,37 +21,34 @@ class WABaseController: UIViewController {
         constraintViews()
         configureAppearance()
     }
-    
-
-
-
 }
 
 @objc extension WABaseController {
-    
+
     func setupViews() {}
     func constraintViews() {}
+
     func configureAppearance() {
         view.backgroundColor = R.Colors.background
     }
-    
+
     func navBarLeftButtonHandler() {
-        print("navBarLeftButton did tap")
+        print("NavBar left button tapped")
     }
-    
+
     func navBarRightButtonHandler() {
-        print("navBarRightButton did tap")
+        print("NavBar right button tapped")
     }
 }
 
 extension WABaseController {
-    func addNavBarButton(at position: NavBarButtonPosition, with title: String) {
+    func addNavBarButton(at position: NavBarPosition, with title: String) {
         let button = UIButton(type: .system)
         button.setTitle(title, for: .normal)
         button.setTitleColor(R.Colors.active, for: .normal)
         button.setTitleColor(R.Colors.inActive, for: .disabled)
         button.titleLabel?.font = R.Fonts.helveticaRegular(with: 17)
-        
+
         switch position {
         case .left:
             button.addTarget(self, action: #selector(navBarLeftButtonHandler), for: .touchUpInside)
@@ -59,16 +56,6 @@ extension WABaseController {
         case .right:
             button.addTarget(self, action: #selector(navBarRightButtonHandler), for: .touchUpInside)
             navigationItem.rightBarButtonItem = UIBarButtonItem(customView: button)
-        }
-        
-    }
-    
-    func setTitleForNavBarButton(_ title: String, at position: NavBarButtonPosition) {
-        switch position {
-        case .left:
-            (navigationItem.leftBarButtonItem?.customView as? UIButton)?.setTitle(title, for: .normal)
-        case .right:
-            (navigationItem.rightBarButtonItem?.customView as? UIButton)?.setTitle(title, for: .normal)
         }
     }
 }

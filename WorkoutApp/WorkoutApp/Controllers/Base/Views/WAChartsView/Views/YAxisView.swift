@@ -1,5 +1,5 @@
 //
-//  YAxisView.swift
+//  XAxisView.swift
 //  WorkoutApp
 //
 //  Created by Alexey Grebennikov on 13.01.23.
@@ -26,7 +26,8 @@ final class YAxisView: WABaseView {
             lable.font = R.Fonts.helveticaRegular(with: 9)
             lable.textColor = R.Colors.inActive
             lable.textAlignment = .right
-            lable.text = "\($0 * 10)" // TODO: - Remake to calculated interval
+            lable.text = "\($0 * 10)" // TODO: - Remake to colculated interval
+
             stackView.addArrangedSubview(lable)
         }
     }
@@ -56,4 +57,5 @@ extension YAxisView {
         backgroundColor = .clear
     }
 }
+
 

@@ -1,5 +1,5 @@
 //
-//  XAxisView.swift
+//  YAxisView.swift
 //  WorkoutApp
 //
 //  Created by Alexey Grebennikov on 13.01.23.
@@ -56,3 +56,5 @@ extension XAxisView {
         backgroundColor = .clear
     }
 }
+
+

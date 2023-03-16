@@ -29,6 +29,7 @@ extension UIView {
             .touchDragOutside,
             .touchUpInside,
             .touchUpOutside,
+            .touchDragExit,
             .touchCancel
         ])
     }
@@ -40,8 +41,8 @@ extension UIView {
     @objc func handleOut() {
         UIView.animate(withDuration: 0.15) { self.alpha = 1 }
     }
-    
-    func setupView(_ view: UIView) {
+
+    @objc func setupView(_ view: UIView) {
         addSubview(view)
         view.translatesAutoresizingMaskIntoConstraints = false
     }
